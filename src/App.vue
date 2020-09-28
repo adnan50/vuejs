@@ -15,22 +15,22 @@
                      <!-- main menu start -->
                      <ul class="navbar-nav">
                         <li class="nav-item">
-                           <a class="nav-link" href="#how-it-work" id="how_menu">HOW IT WORKS</a>
+                           <a class="nav-link" href="#how-it-work" id="how_menu" v-smooth-scroll>HOW IT WORKS</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="#how-it-works" id="how_menu1">HOW IT WORKS</a>
+                           <a class="nav-link" href="#how-it-works" id="how_menu1" v-smooth-scroll>HOW IT WORKS</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="#our_history" id="case_menu">OUR HISTORY</a>
+                           <a class="nav-link" href="#our_history" id="case_menu" v-smooth-scroll>OUR HISTORY</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#faq" id="faq_menu">FAQs</a>
+                        <a class="nav-link" href="#faq" id="faq_menu" v-smooth-scroll>FAQs</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#pricing" id="pricing_menu">PRICING</a>
+                        <a class="nav-link" href="#pricing" id="pricing_menu" v-smooth-scroll>PRICING</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="#contact" id="contact_menu">CONTACT</a>
+                           <a class="nav-link" href="#contact" id="contact_menu" v-smooth-scroll>CONTACT</a>
                         </li>
                      </ul>
                      <!-- main menu end -->
@@ -64,10 +64,20 @@
             <!-- row end -->
          </div>
       </div>
+      <OurWork/>
         <WhatWeDo/>
         <OurFeatures/>
         <HowWorks/>
         <CustomerSupport/>
+        <TrustedClients/>
+        <OurHistory/>
+        <Faqs/>
+        <Pricing/>
+         <testimonial/>
+        <Contact/>
+ 
+        <Footer/>
+ 
       <!-- navbar content end -->
   </div>
 
@@ -78,6 +88,18 @@
 import OurFeatures from './components/OurFeatures.vue';
 import HowWorks from './components/HowWorks.vue';
 import CustomerSupport from './components/CustomerSupport.vue';
+import TrustedClients from './components/TrustedClients.vue';
+import OurHistory from './components/OurHistory.vue';
+import Faqs from './components/Faqs.vue';
+import Pricing from './components/Pricing.vue';
+import Contact from './components/Contact.vue';
+import Footer from './components/Footer.vue';
+import OurWork from './components/OurWork.vue';
+import Testimonial from './components/Testimonial.vue';
+
+
+
+
 
 
 // styles of website
@@ -97,7 +119,15 @@ export default {
     WhatWeDo,
      OurFeatures,
      HowWorks,
-     CustomerSupport
+     CustomerSupport,
+     TrustedClients,
+     OurHistory,
+     Faqs,
+     Pricing,
+     Contact,
+     Footer,
+     OurWork,
+     Testimonial
   }
 }
 </script>

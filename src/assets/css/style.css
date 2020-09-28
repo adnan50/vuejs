@@ -1,6 +1,8 @@
 body {
   margin: 0px;
+  
 }
+
 .fa {
     display: inline-block!important;
     font: normal normal normal 14px/1 FontAwesome!important;
@@ -502,6 +504,7 @@ a:hover {
 .border-img img {
   border: 3px solid #FE7D46;
   height: 140px;
+  margin: auto;
 }
 
 .bgtestiicon {
@@ -924,4 +927,20 @@ text-decoration: none!important;
 }
 #how-it-works,#how_menu1,#footer_work1{
   display: none;
+}
+.vueperslides--fade .vueperslide{
+  background-size: auto;
+    background-repeat: no-repeat;
+}
+.vueperslides__parallax-wrapper{
+  padding-bottom: 40%!important;
+}
+.curve-shape[data-v-7d15857f] {
+  margin-bottom: -16px;
+  overflow-x: hidden;
+}.curve-shape svg[data-v-7d15857f] {
+  width: 200%;
+  position: relative;
+  -webkit-animation: move-left-data-v-7d15857f 6s linear infinite;
+  animation: move-left-data-v-7d15857f 6s linear infinite;
 }
